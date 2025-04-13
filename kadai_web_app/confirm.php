@@ -1,7 +1,7 @@
 <?php
 // POSTリクエストから入力データを取得
 $employee_name = $_POST['employee_name'];
-$employee_Age = $_POST['employee_Age'];
+$employee_age = $_POST['employee_age'];
 $department = $_POST['department'];
 ?>
 
@@ -28,7 +28,7 @@ $department = $_POST['department'];
         </tr>
         <tr>
             <td>年齢</td>
-            <td><?php echo $employee_Age; ?></td>
+            <td><?php echo $employee_age; ?></td>
         </tr>
         <tr>
             <td>所属部署</td>
